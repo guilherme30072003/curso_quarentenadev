@@ -1,7 +1,7 @@
 # Curso QuarentenaDev
 
 ## English
-**Hi guys, welcome to my first repository in Github**
+**Hi guys, welcome to my first repository on Github**
 
 This repository has all the practical exercises of __QuarentenaDev__ course. Each lesson of the course is in its own directory. Hope you enjoy it!
 
