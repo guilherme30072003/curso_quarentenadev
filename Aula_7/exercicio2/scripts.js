@@ -1,5 +1,6 @@
 //Exercício2
 //O Art desafiou você a não deixar o usuário digitar um número maior que 10, caso ele digite um maior, dizer que ele não pode e pedir para digitar um novo número.
+// Código base dessa aula: https://codepen.io/artdiniz/pen/OJVGRJj
 function executarSorteio() {
     numero_digitado = -1
     numero_aleatorio = Math.round(Math.random() * 10)
@@ -7,9 +8,9 @@ function executarSorteio() {
 
     invalido = true
     while (invalido) {
-        numero_digitado = prompt("Digite um número (0-10)")
+        numero_digitado = prompt("Digite um número (1-10)")
 
-        invalido = (numero_digitado < 0 || numero_digitado > 10)
+        invalido = (numero_digitado < 1 || numero_digitado > 10)
 
         if (invalido) {
             alert("Valor inválido")
