@@ -2,8 +2,7 @@
 //O Art desafiou você a não deixar o usuário digitar um número maior que 10, caso ele digite um maior, dizer que ele não pode e pedir para digitar um novo número.
 // Código base dessa aula: https://codepen.io/artdiniz/pen/OJVGRJj
 function executarSorteio() {
-    numero_digitado = -1
-    numero_aleatorio = Math.round(Math.random() * 10)
+    numero_aleatorio = Math.trunc(Math.random() * 10+1)
     console.log(numero_aleatorio)
 
     invalido = true
