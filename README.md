@@ -14,6 +14,7 @@ PS: The question of each exercise is into scripts.js as a commentary
 
 ## Português
 **Olá pessoal, sejam bem-vindos ao meu primeiro repositório no Github**
+
 Este repositório possui todos os exercícios práticos do curso __QuarentenaDev__. O repositório foi divido nas aulas do curso, cada aula possui uma pasta e dentro dela os exercícios dessa aula, espero que gostem!
 
 OBS: O texto dos exercícios estão em forma de comentário no arquivo scripts.js
